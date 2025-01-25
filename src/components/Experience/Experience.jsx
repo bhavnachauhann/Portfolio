@@ -12,7 +12,7 @@ export const Experience = () => {
   useEffect(() => {
   
     AOS.init({
-        duration: 900, // Animation duration in ms
+        duration: 800, // Animation duration in ms
         easing: 'ease-in-out', // Animation easing
         once: true, // Trigger animation only once
     });
@@ -20,7 +20,7 @@ export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
-      <div className={styles.content} >
+      <div className={styles.content} data-aos="flip-up" >
         {/* <div className={styles.skills}>
           {skills.map((skill, id) => {
             return (

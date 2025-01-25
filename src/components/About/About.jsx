@@ -10,7 +10,7 @@ export const About = () => {
   useEffect(() => {
   
       AOS.init({
-          duration: 900, // Animation duration in ms
+          duration: 800, // Animation duration in ms
           easing: 'ease-in-out', // Animation easing
           once: true, // Trigger animation only once
       });
@@ -31,8 +31,8 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+              I'm a frontend developer with experience in building responsive and optimized websites using HTML, CSS, JavaScript, and React.js
+              
               </p>
             </div>
           </li>
@@ -41,8 +41,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+              I build fast and scalable backend systems using Node.js, Express.js, and MongoDB to create efficient APIs and databases.
               </p>
             </div>
           </li>

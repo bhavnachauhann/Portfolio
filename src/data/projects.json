@@ -1,26 +1,25 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Bookstore",
+    "imageSrc": "projects/bookstore.png",
+    "description": "This is a Bookstore App using React, MongoDB, Express, Node, and Tailwind CSS.",
+    "skills": ["React", "MongoDB", "Express", "Node", "Tailwind CSS"],
+    "demo": "https://bookstore-frontend-gray-one.vercel.app/",
+    "source": "https://github.com/bhavnachauhann/bookstore-frontend"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Spiritual Wellness Program",
+    "imageSrc": "projects/archika.png",
+    "description": "This is a Spiritual Wellness Program using React, MongoDB, Express, Node, and Bootstrap.",
+    "skills": ["React", "MongoDB", "Express", "Node", "Bootstrap"],
+    "demo": "https://drarchikadidi.com/"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Finance Website",
+    "imageSrc": "projects/finance.png",
+    "description": "A finance website built with React, HTML, Bootstrap, Node, Express, and MongoDB.",
+    "skills": ["React", "HTML", "Bootstrap", "Node", "Express", "MongoDB"],
+    "demo": "https://finance-website-ten.vercel.app/",
+    "source": "https://github.com/bhavnachauhann/FinanceWebsite"
   }
 ]

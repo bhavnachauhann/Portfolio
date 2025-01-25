@@ -16,11 +16,11 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title} data-aos="zoom-in-down">Hi, I'm Ada</h1>
+        <h1 className={styles.title} data-aos="zoom-in-down">Hi, I'm Bhavna</h1>
         <p className={styles.description} data-aos="fade-up">
-        "I’m a Frontend Developer Intern skilled in React.js, JavaScript, and responsive design. I create user-friendly interfaces and seamless applications. Let’s connect to collaborate!"
+        Frontend Developer with expertise in React.js, JavaScript, responsive design, and MERN stack, creating seamless, user-focused web applications.
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+        <a href="mailto:bhavnac297@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>

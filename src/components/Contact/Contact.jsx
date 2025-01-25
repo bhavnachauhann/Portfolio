@@ -1,16 +1,37 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import  { useEffect } from "react";
 
 export const Contact = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Bhavna_chauhan_Resume.pdf"; // Relative path from the public folder
+    link.download = "Bhavna_Chauhan_Resume.pdf"; // The name of the downloaded file
+    link.click();
+  };
+   useEffect(() => {
+  
+      AOS.init({
+          duration: 800, // Animation duration in ms
+          easing: 'ease-in-out', // Animation easing
+          once: true, // Trigger animation only once
+      });
+    }, []);
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
         <h2>Contact</h2>
+        
         <p>Feel free to reach out!</p>
+        <button className={styles.downloadButton} onClick={handleDownload}>
+        Download My Resume
+      </button>
       </div>
-      <ul className={styles.links}>
-        <li>
+      <ul className={styles.links} data-aos="fade-down">
+        <li >
           <a href="mailto:bhavnac297@gmail.com">
             <img
               src={getImageUrl("contact/emailIcon.png")}
@@ -21,7 +42,7 @@ export const Contact = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/myname" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/bhavna-chauhan-79a40b230/" target="_blank" rel="noreferrer">
             <img
               src={getImageUrl("contact/linkedinIcon.png")}
               alt="LinkedIn icon"
@@ -31,7 +52,7 @@ export const Contact = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.github.com/myname" target="_blank" rel="noreferrer">
+          <a href="https://github.com/bhavnachauhann" target="_blank" rel="noreferrer">
             <img
               src={getImageUrl("contact/githubIcon.png")}
               alt="GitHub icon"
