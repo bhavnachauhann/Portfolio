@@ -87,7 +87,7 @@
 } */
 
 .heroImg {
-  width: 50%;
+  width: 100%;
   z-index: 1;
 
   animation: rotate3D 8s infinite linear; /* Adjust duration as needed */

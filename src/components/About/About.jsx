@@ -45,7 +45,7 @@ export const About = () => {
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem} data-aos="flip-up">
+          {/* <li className={styles.aboutItem} data-aos="flip-up">
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
@@ -54,7 +54,7 @@ export const About = () => {
                 systems as well
               </p>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
