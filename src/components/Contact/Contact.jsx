@@ -8,8 +8,8 @@ import  { useEffect } from "react";
 export const Contact = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Bhavna_chauhan_Resume.pdf"; // Relative path from the public folder
-    link.download = "Bhavna_Chauhan_Resume.pdf"; // The name of the downloaded file
+    link.href = "/Bhavna_Resume (1) (2)"; // Relative path from the public folder
+    link.download = "Bhavna_Resume (1) (2)"; // The name of the downloaded file
     link.click();
   };
    useEffect(() => {
