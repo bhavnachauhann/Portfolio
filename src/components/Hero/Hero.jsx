@@ -3,7 +3,8 @@ import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 import { useEffect } from "react";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
+import Typewriter from "typewriter-effect"; 
 export const Hero = () => {
   useEffect(() => {
 
@@ -16,7 +17,18 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title} data-aos="zoom-in-down">Hi, I'm Bhavna</h1>
+        <h1 className={styles.title} data-aos="zoom-in-down">
+        <Typewriter
+          options={{
+            strings: ["Hi, I'm Bhavna","A Developer", "A Designer"],
+            autoStart: true,
+            loop: true,
+            cursor: "",
+            wrapperClassName: styles.typewriterText,
+          }}
+        />
+        </h1>
+
         <p className={styles.description} data-aos="fade-up">
         Frontend Developer with expertise in React.js, JavaScript, responsive design, and MERN stack, creating seamless, user-focused web applications.
         </p>
