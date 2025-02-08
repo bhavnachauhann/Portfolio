@@ -20,7 +20,7 @@ export const Hero = () => {
         <h1 className={styles.title} data-aos="zoom-in-down">
         <Typewriter
           options={{
-            strings: ["Hi, I'm Bhavna","A Developer", "A Designer"],
+            strings: ["Hi, I'm Bhavna","A Developer", "A web Designer"],
             autoStart: true,
             loop: true,
             cursor: "",
